@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>HDC Host</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar-container">
+        <nav>
+          <img src="img/hdchostlogo.png" class="logo" />
+
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <ul class="navbar-items" id="navbar-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Planos</a></li>
+            <li><a href="#" class="default-btn">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <main>
+        <div class="main-banner">
+          <button id="toggle-theme" class="theme-switch">
+            <div class="switch-ball">
+              <span class="icon">🌙</span>
+            </div>
+          </button>
+          <h1>hDC Host</h1>
+          <p>Os melhores servicos para projetos de todos os tamanhos!</p>
+        </div>
+        <section class="services-container">
+          <ul>
+            <li>
+              <img class="img" src="img/seguranca.jpg" alt="seguranca" />
+              <h3>Seguranca</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt deleniti quam, eum assumenda vel expedita ipsum, magni
+                molestiae nisi facilis consequatur quas sint repudiandae
+                explicabo deserunt a animi repellendus architecto.
+              </p>
+            </li>
+            <li>
+              <img class="img" src="img/performance.jpeg" alt="performance" />
+              <h3>Performance</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt deleniti quam, eum assumenda vel expedita ipsum, magni
+                molestiae nisi facilis consequatur quas sint repudiandae
+                explicabo deserunt a animi repellendus architecto.
+              </p>
+            </li>
+            <li>
+              <img class="img" src="img/suporte.jpg" alt="suporte" />
+              <h3>Suporte 24/7</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt deleniti quam, eum assumenda vel expedita ipsum, magni
+                molestiae nisi facilis consequatur quas sint repudiandae
+                explicabo deserunt a animi repellendus architecto.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="price-container">
+          <h2>Planos e Precos</h2>
+          <p>Selecione o plano que atende suas necessidades</p>
+          <div class="plans-container">
+            <div class="plan">
+              <ul>
+                <li class="price">R$15/mes</li>
+                <li class="plan-name">Basico</li>
+                <li>2GB de espaco</li>
+                <li>1 Subdominio</li>
+                <li>25 contas de e-mail</li>
+                <li>C-panel</li>
+                <li>Suporte 24/7</li>
+                <li class="plan-btn">Saber mais</li>
+              </ul>
+            </div>
+            <div class="plan">
+              <ul>
+                <li class="price">R$30/mes</li>
+                <li class="plan-name">Dedicado</li>
+                <li>5GB de espaco</li>
+                <li>10 Subdominio</li>
+                <li>50 contas de e-mail</li>
+                <li>C-panel</li>
+                <li>Suporte 24/7</li>
+                <li class="plan-btn">Saber mais</li>
+              </ul>
+            </div>
+            <div class="plan">
+              <ul>
+                <li class="price recommended">R$50/mes</li>
+                <li class="plan-name">Dedicado Plus</li>
+                <li>10GB de espaco</li>
+                <li>10 Subdominio</li>
+                <li>100 contas de e-mail</li>
+                <li>C-panel</li>
+                <li>Suporte 24/7</li>
+                <li class="plan-btn">Saber mais</li>
+              </ul>
+            </div>
+            <div class="plan">
+              <ul>
+                <li class="price">R$100/mes</li>
+                <li class="plan-name">Cloud</li>
+                <li>20GB de espaco</li>
+                <li>20 Subdominio</li>
+                <li>200 contas de e-mail</li>
+                <li>C-panel</li>
+                <li>Suporte 24/7</li>
+                <li class="plan-btn">Saber mais</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="video-container">
+          <h1>O que e um dominio?</h1>
+          <p>Veja abaixo!</p>
+          <video controls>
+            <source src="img/Vídeo sem título (1).mp4" type="video/mp4" />
+            <track
+              src="img/legenda.vtt"
+              kind="subtitles"
+              srclang="pt"
+              label="Português"
+            />
+          </video>
+        </section>
+        <section class="searchdomain-container">
+          <h2>Qual o dominio voce quer para o seu site?</h2>
+          <p>Verifique se o dominio esta disponivel</p>
+          <form>
+            <input
+              type="text"
+              name="domain"
+              id="domain"
+              placeholder="Digite o dominio desejado"
+            />
+            <input type="submit" value="Procurar dominio" />
+          </form>
+        </section>
+        <section class="contact-container">
+          <h2>Mande uma mensagem</h2>
+          <p>
+            Envie a sua mensagem, em ate 4 horas um especialista entrara em
+            contato
+          </p>
+          <form>
+            <input type="text" name="name" id="name" placeholder="Seu nome" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Seu e-mail"
+            />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Descreva o que voce precisa ou o seu projeto..."
+            ></textarea>
+            <input type="submit" value="Enviar" />
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>hDC Host @ 2025</p>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
